@@ -54,15 +54,16 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
 .filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 1.3rem;
 }
 
 .botao{

@@ -11,11 +11,42 @@
 }
 
 @media screen and (max-width:425px){
+    .filme-principal .descricao {
+        margin-bottom: 15px;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+    .botoes {
+        display: flex;
+        margin-bottom: 40px;
+        width: 350px;
+        align-items: center;
+        justify-content: space-around;
+    }
     .botao{
-        display: inline-block;
-        margin-top: 5px;
-        margin-bottom: 3px;
+        display: flex;
+        flex-direction: row;
         padding: 10px 5px;
+        border: 1px solid rgba(255, 255, 255, 0.274);
+    }
+}
+
+@media screen and (max-width:370px) {
+    .container {
+        width: 100%;
+    }
+    .filme-principal .descricao {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .filme-principal .container {
+        width: 100%;
+    }
+    .botoes {
+        display: block;
+    }
+    .botao {
+        display: inline-block;
         width: 200px;
     }
 }
